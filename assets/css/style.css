@@ -25,6 +25,7 @@ header { color:beige; background-color: black;
     position: fixed;
     z-index: 99;
     box-shadow: 0 3px 2px 	#faebd7;
+    min-width: 100%;
 }
 header a {
     text-decoration: none;
