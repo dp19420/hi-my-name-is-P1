@@ -1,3 +1,6 @@
+/* Google font import */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;1,400&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -12,12 +15,14 @@ body {
 
     /*General project styles */
     color: antiquewhite;
+    font-family: 'Rubik', sans-serif;
 
 }
 /*  Header */
 
 header { color:beige; background-color: black; 
 }
+
 /* Main */
 
 main { background-color: red;
@@ -30,6 +35,5 @@ footer {background-color: rgb(95, 91, 99);
 
 span {display:inline-block;}
 
-/* Google font import */
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;1,500&display=swap');
+
