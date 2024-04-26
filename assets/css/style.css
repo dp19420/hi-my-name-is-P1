@@ -60,3 +60,11 @@ h1 {
     letter-spacing: 4px;
     list-style-type: none;
 }
+
+#menu li {
+    margin-left: 5%;
+    margin-bottom: 1em;
+}
+.active {
+    color:chocolate
+}
