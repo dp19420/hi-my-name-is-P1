@@ -120,11 +120,19 @@ nav {
         display: none;
     }
     #logo {
-        font: size 250%;
+        font-size: 250%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
     main {
         margin-top: 150px;
     }
+}
+/* Media query: laptops and larger 992px and up*/
+@media screen and (min-width: 992px){
+
+#menu > li > a:hover {
+    color:chocolate;
+
+}
 }
