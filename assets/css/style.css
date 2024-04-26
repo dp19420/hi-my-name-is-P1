@@ -28,3 +28,7 @@ footer {background-color: blueviolet;
 }
 
 span {display:inline-block;}
+
+/* Google font import */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;1,500&display=swap');
