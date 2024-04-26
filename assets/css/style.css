@@ -131,7 +131,7 @@ nav {
 /* Media query: laptops and larger 992px and up*/
 @media screen and (min-width: 992px){
 
-#menu > li > a:hover {
+#menu a:hover {
     color:chocolate;
 
 }
