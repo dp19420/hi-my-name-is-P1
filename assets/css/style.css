@@ -41,7 +41,7 @@ header a {
 
 main { background-color: red;
 flex: 1 0 auto;
-margin-top: 60px;}
+margin-top: 74px;}
 /* Footer */
 
 footer {background-color: rgb(95, 91, 99);
@@ -123,5 +123,8 @@ nav {
         font: size 250%;
         line-height: 75px;
         margin: 0 0.5rem;
+    }
+    main {
+        margin-top: 150px;
     }
 }
