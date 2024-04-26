@@ -38,7 +38,8 @@ header a {
 /* Main */
 
 main { background-color: red;
-flex: 1 0 auto}
+flex: 1 0 auto;
+margin-top: 60px;}
 /* Footer */
 
 footer {background-color: rgb(95, 91, 99);
