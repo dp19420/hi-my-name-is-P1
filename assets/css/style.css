@@ -39,9 +39,17 @@ header a {
 
 /* Main */
 
-main { background-color: red;
+main { color:black;
 flex: 1 0 auto;
 margin-top: 74px;}
+
+
+/* Hero */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/headshot2.webp") no-repeat center center/cover;
+}
 /* Footer */
 
 footer {background-color: rgb(95, 91, 99);
