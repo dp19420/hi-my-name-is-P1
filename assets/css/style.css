@@ -13,9 +13,20 @@ body {
     display: flex;
     flex-direction: column;
 
+
+
     /*General project styles */
     color: antiquewhite;
     font-family: 'Rubik', sans-serif;
+
+    h1, h2, h3 {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color:burlywood;
+        
+        
+    }
 
 }
 /*  Header */
@@ -49,6 +60,20 @@ margin-top: 74px;}
     height: 600px;
     width: 100%;
     background: url("../images/headshot2.webp") no-repeat center center/cover;
+    position: relative;
+}
+#cover-text {
+    background-color: darkslategrey;
+    opacity: 0.6;
+    font-size: 200%;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    padding-top: 5px;
+    width: 80%;
+    min-height: 100px;
+    padding-left: 10px;
+
 }
 /* Footer */
 
@@ -62,14 +87,7 @@ img {
     max-width: 100%;
 }
 
-h1 {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color:burlywood;
-    
-    
-}
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -129,6 +147,7 @@ nav {
         box-shadow:none;
         width: fit-content;
         padding-right: 1rem;
+        
 
 
     }
@@ -148,6 +167,9 @@ nav {
     }
     main {
         margin-top: 150px;
+    }
+    #cover-text {
+        width: 300px;
     }
 }
 /* Media query: laptops and larger 992px and up*/
