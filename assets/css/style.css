@@ -26,6 +26,9 @@ header { color:beige; background-color: black;
     z-index: 99;
     box-shadow: 0 3px 2px 	#faebd7;
     min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 header a {
     text-decoration: none;
@@ -77,5 +80,16 @@ nav {
     box-shadow: 0 3px 2px 	#faebd7;
     left: 0;
     display: none;
+    top:100%;
 
+}
+/*Nav toggle */
+#nav-toggle:checked~nav {
+    display:block;
+}
+#nav-toggle {
+    display: none;
+}
+.nav-toggle-label {
+    font-size: 2rem;
 }
